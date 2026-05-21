@@ -1,17 +1,20 @@
-# Personal Portfolio Website
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A custom-built, interactive personal portfolio website designed to showcase my projects and skills. This project moves beyond standard templates, utilizing heavy custom coding to deliver a unique user experience.
+# Run and deploy your AI Studio app
 
-## ✨ Key Features
-* **Custom Animated Logo:** A highly detailed, code-driven animated logo that loads smoothly upon entry.
-* **Advanced UI Animations:** Complex page transitions and interactive elements engineered for high performance.
-* **Responsive Architecture:** Fully optimized to work flawlessly across desktop, tablet, and mobile devices.
-* **Custom Build:** Programmed from the ground up without relying on standard drag-and-drop website builders.
+This contains everything you need to run your app locally.
 
-## 💻 Tech Stack
-* **Languages:** HTML5, CSS3, JavaScript
-* **Animation Libraries:** [Add any you used, e.g., GSAP, Three.js, or CSS Keyframes]
-* **Hosting:** [Add your host here once deployed, e.g., Cloudflare Pages / Vercel]
+View your app in AI Studio: https://ai.studio/apps/e5c3b194-862d-45dd-a890-7c019c34adae
 
-## 🚀 Live Demo
-You can view the live, fully animated website here: [Insert Your Website Link Here]
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
